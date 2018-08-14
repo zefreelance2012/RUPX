@@ -110,7 +110,7 @@ public:
         pchMessageStart[2] = 0x4c;
         pchMessageStart[3] = 0x32;
         vAlertPubKey = ParseHex("04a0a1f648814393a94c2b641ec583f4c3a848959f5cc663df5141dd6dc24eda8c4473edb88aa217331aa028dd59a023e6257c40cbc001e7725f62934228e0d1c0");
-        nDefaultPort = 9050;
+        nDefaultPort = 9025;
         bnProofOfWorkLimit = ~uint256(0) >> 1;
         nMaxReorganizationDepth = 100;
         nEnforceBlockUpgradeMajority = 750;
@@ -315,7 +315,7 @@ public:
         genesis.nNonce = 12345;
         
         hashGenesisBlock = genesis.GetHash();
-        nDefaultPort = 55600;
+        nDefaultPort = 55700;
         //assert(hashGenesisBlock == uint256("0x001"));
         
         vFixedSeeds.clear(); //! Testnet mode doesn't have any fixed seeds.
