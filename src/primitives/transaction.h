@@ -1,11 +1,11 @@
 // Copyright (c) 2009-2010 Satoshi Nakamoto
 // Copyright (c) 2009-2014 The Bitcoin developers
-// Copyright (c) 2015-2017 The PIVX developers
+// Copyright (c) 2015-2017 The Rupaya developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#ifndef BITCOIN_PRIMITIVES_TRANSACTION_H
-#define BITCOIN_PRIMITIVES_TRANSACTION_H
+#ifndef RUPAYA_PRIMITIVES_TRANSACTION_H
+#define RUPAYA_PRIMITIVES_TRANSACTION_H
 
 #include "amount.h"
 #include "script/script.h"
@@ -259,7 +259,10 @@ public:
 
     bool IsZerocoinSpend() const
     {
-        return (vin.size() > 0 && vin[0].prevout.hash == 0 && vin[0].scriptSig[0] == OP_ZEROCOINSPEND);
+        return (vin.size() > 0 &&
+                !vin[0].prevout.IsNull() &&
+                vin[0].prevout.hash == 0 &&
+                vin[0].scriptSig[0] == OP_ZEROCOINSPEND);
     }
 
     bool IsZerocoinMint() const
@@ -346,4 +349,4 @@ struct CMutableTransaction
 
 };
 
-#endif // BITCOIN_PRIMITIVES_TRANSACTION_H
+#endif // RUPAYA_PRIMITIVES_TRANSACTION_H

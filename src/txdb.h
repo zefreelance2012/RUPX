@@ -1,11 +1,11 @@
 // Copyright (c) 2009-2010 Satoshi Nakamoto
 // Copyright (c) 2009-2014 The Bitcoin developers
-// Copyright (c) 2016-2018 The PIVX developers
+// Copyright (c) 2016-2018 The base developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#ifndef BITCOIN_TXDB_H
-#define BITCOIN_TXDB_H
+#ifndef RUPAYA_TXDB_H
+#define RUPAYA_TXDB_H
 
 #include "leveldbwrapper.h"
 #include "main.h"
@@ -80,11 +80,11 @@ private:
     void operator=(const CZerocoinDB&);
 
 public:
-    /** Write zPIV mints to the zerocoinDB in a batch */
+    /** Write zRupx mints to the zerocoinDB in a batch */
     bool WriteCoinMintBatch(const std::vector<std::pair<libzerocoin::PublicCoin, uint256> >& mintInfo);
     bool ReadCoinMint(const CBigNum& bnPubcoin, uint256& txHash);
     bool ReadCoinMint(const uint256& hashPubcoin, uint256& hashTx);
-    /** Write zPIV spends to the zerocoinDB in a batch */
+    /** Write zRupx spends to the zerocoinDB in a batch */
     bool WriteCoinSpendBatch(const std::vector<std::pair<libzerocoin::CoinSpend, uint256> >& spendInfo);
     bool ReadCoinSpend(const CBigNum& bnSerial, uint256& txHash);
     bool ReadCoinSpend(const uint256& hashSerial, uint256 &txHash);
@@ -96,4 +96,4 @@ public:
     bool EraseAccumulatorValue(const uint32_t& nChecksum);
 };
 
-#endif // BITCOIN_TXDB_H
+#endif // RUPAYA_TXDB_H

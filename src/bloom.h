@@ -1,10 +1,10 @@
 // Copyright (c) 2012-2014 The Bitcoin developers
-// Copyright (c) 2017 The PIVX developers
+// Copyright (c) 2017 The Rupaya developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#ifndef BITCOIN_BLOOM_H
-#define BITCOIN_BLOOM_H
+#ifndef RUPAYA_BLOOM_H
+#define RUPAYA_BLOOM_H
 
 #include "serialize.h"
 
@@ -98,4 +98,4 @@ public:
     void UpdateEmptyFull();
 };
 
-#endif // BITCOIN_BLOOM_H
+#endif // RUPAYA_BLOOM_H

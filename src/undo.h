@@ -1,11 +1,11 @@
 // Copyright (c) 2009-2010 Satoshi Nakamoto
 // Copyright (c) 2009-2013 The Bitcoin developers
-// Copyright (c) 2016-2017 The PIVX developers
+// Copyright (c) 2016-2017 The Rupaya developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#ifndef BITCOIN_UNDO_H
-#define BITCOIN_UNDO_H
+#ifndef RUPAYA_UNDO_H
+#define RUPAYA_UNDO_H
 
 #include "compressor.h"
 #include "primitives/transaction.h"
@@ -75,4 +75,4 @@ public:
     }
 };
 
-#endif // BITCOIN_UNDO_H
+#endif // RUPAYA_UNDO_H

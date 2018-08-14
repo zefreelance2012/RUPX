@@ -1,9 +1,9 @@
-// Copyright (c) 2017 The PIVX developers
+// Copyright (c) 2017 The Rupaya developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#ifndef PIVX_BLOCKSIGNATURE_H
-#define PIVX_BLOCKSIGNATURE_H
+#ifndef RUPAYA_BLOCKSIGNATURE_H
+#define RUPAYA_BLOCKSIGNATURE_H
 
 #include "key.h"
 #include "primitives/block.h"

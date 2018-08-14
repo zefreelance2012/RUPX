@@ -2,8 +2,8 @@
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#ifndef BITCOIN_QT_QVALIDATEDLINEEDIT_H
-#define BITCOIN_QT_QVALIDATEDLINEEDIT_H
+#ifndef RUPAYA_QT_QVALIDATEDLINEEDIT_H
+#define RUPAYA_QT_QVALIDATEDLINEEDIT_H
 
 #include <QLineEdit>
 
@@ -36,4 +36,4 @@ private slots:
     void checkValidity();
 };
 
-#endif // BITCOIN_QT_QVALIDATEDLINEEDIT_H
+#endif // RUPAYA_QT_QVALIDATEDLINEEDIT_H

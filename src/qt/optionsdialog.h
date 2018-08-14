@@ -1,10 +1,10 @@
 // Copyright (c) 2011-2013 The Bitcoin developers
-// Copyright (c) 2017-2018 The PIVX developers
+// Copyright (c) 2017-2018 The Rupaya developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#ifndef BITCOIN_QT_OPTIONSDIALOG_H
-#define BITCOIN_QT_OPTIONSDIALOG_H
+#ifndef RUPAYA_QT_OPTIONSDIALOG_H
+#define RUPAYA_QT_OPTIONSDIALOG_H
 
 #include <QDialog>
 
@@ -61,4 +61,4 @@ private:
     bool fProxyIpValid;
 };
 
-#endif // BITCOIN_QT_OPTIONSDIALOG_H
+#endif // RUPAYA_QT_OPTIONSDIALOG_H

@@ -1,7 +1,7 @@
 // Copyright (c) 2009-2010 Satoshi Nakamoto
 // Copyright (c) 2009-2014 The Bitcoin developers
 // Copyright (c) 2014-2015 The Dash developers
-// Copyright (c) 2016-2017 The PIVX developers
+// Copyright (c) 2016-2017 The Rupaya developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -9,8 +9,8 @@
 #error This header can only be compiled as C++.
 #endif
 
-#ifndef BITCOIN_PROTOCOL_H
-#define BITCOIN_PROTOCOL_H
+#ifndef RUPAYA_PROTOCOL_H
+#define RUPAYA_PROTOCOL_H
 
 #include "netbase.h"
 #include "serialize.h"
@@ -175,4 +175,4 @@ enum {
     MSG_DSTX
 };
 
-#endif // BITCOIN_PROTOCOL_H
+#endif // RUPAYA_PROTOCOL_H

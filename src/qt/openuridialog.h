@@ -1,10 +1,10 @@
 // Copyright (c) 2011-2013 The Bitcoin developers
-// Copyright (c) 2017 The PIVX developers
+// Copyright (c) 2017 The Rupaya developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#ifndef BITCOIN_QT_OPENURIDIALOG_H
-#define BITCOIN_QT_OPENURIDIALOG_H
+#ifndef RUPAYA_QT_OPENURIDIALOG_H
+#define RUPAYA_QT_OPENURIDIALOG_H
 
 #include <QDialog>
 
@@ -33,4 +33,4 @@ private:
     Ui::OpenURIDialog* ui;
 };
 
-#endif // BITCOIN_QT_OPENURIDIALOG_H
+#endif // RUPAYA_QT_OPENURIDIALOG_H

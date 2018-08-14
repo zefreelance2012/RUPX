@@ -1,10 +1,10 @@
 // Copyright (c) 2009-2014 The Bitcoin developers
-// Copyright (c) 2017 The PIVX developers
+// Copyright (c) 2017 The Rupaya developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#ifndef BITCOIN_CORE_IO_H
-#define BITCOIN_CORE_IO_H
+#ifndef RUPAYA_CORE_IO_H
+#define RUPAYA_CORE_IO_H
 
 #include <string>
 #include <vector>
@@ -31,4 +31,4 @@ extern void ScriptPubKeyToUniv(const CScript& scriptPubKey,
     bool fIncludeHex);
 extern void TxToUniv(const CTransaction& tx, const uint256& hashBlock, UniValue& entry);
 
-#endif // BITCOIN_CORE_IO_H
+#endif // RUPAYA_CORE_IO_H

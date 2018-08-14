@@ -1,10 +1,10 @@
 // Copyright (c) 2014-2015 The Dash developers
-// Copyright (c) 2015-2017 The PIVX developers
+// Copyright (c) 2015-2017 The Rupaya developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#ifndef SRC_MASTERNODECONFIG_H_
-#define SRC_MASTERNODECONFIG_H_
+#ifndef RUPAYA_MASTERNODECONFIG_H
+#define RUPAYA_MASTERNODECONFIG_H
 
 #include <string>
 #include <vector>
@@ -118,4 +118,4 @@ private:
 };
 
 
-#endif /* SRC_MASTERNODECONFIG_H_ */
+#endif /* RUPX_MASTERNODECONFIG_H */

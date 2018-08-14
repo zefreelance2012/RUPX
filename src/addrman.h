@@ -1,11 +1,11 @@
 // Copyright (c) 2012 Pieter Wuille
 // Copyright (c) 2012-2014 The Bitcoin developers
-// Copyright (c) 2017 The PIVX developers
+// Copyright (c) 2017 The Rupaya developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#ifndef BITCOIN_ADDRMAN_H
-#define BITCOIN_ADDRMAN_H
+#ifndef RUPAYA_ADDRMAN_H
+#define RUPAYA_ADDRMAN_H
 
 #include "netbase.h"
 #include "protocol.h"
@@ -570,4 +570,4 @@ public:
     }
 };
 
-#endif // BITCOIN_ADDRMAN_H
+#endif // RUPAYA_ADDRMAN_H

@@ -1,13 +1,13 @@
 // Copyright (c) 2015-2017 The Bitcoin Core developers
-// Copyright (c) 2017 The PIVX developers
+// Copyright (c) 2017 The Rupaya developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
 /**
  * Functionality for communicating with Tor.
  */
-#ifndef BITCOIN_TORCONTROL_H
-#define BITCOIN_TORCONTROL_H
+#ifndef RUPAYA_TORCONTROL_H
+#define RUPAYA_TORCONTROL_H
 
 #include <string>
 
@@ -22,4 +22,4 @@ void StartTorControl(boost::thread_group& threadGroup);
 void InterruptTorControl();
 void StopTorControl();
 
-#endif /* BITCOIN_TORCONTROL_H */
+#endif /* RUPAYA_TORCONTROL_H */
