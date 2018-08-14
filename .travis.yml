@@ -49,8 +49,8 @@ script:
       RESULT=$?; if [ $RESULT -eq 0 ] || [ $RESULT -eq 142 ]; then true; else false; fi;
 before_deploy:
 # Set up git user name and tag this commit
-#  - git config --local user.name "binarysculptor"
-#  - git config --local user.email "martin@bravelantern.com"
+#  - git config --local user.name "rupaya"
+#  - git config --local user.email "github@rupx.io"
 #  - git tag "$(date +'%Y%m%d%H%M%S')-$(git log --format=%h -1)"
    - "./pre-deploy.sh"
 deploy:
