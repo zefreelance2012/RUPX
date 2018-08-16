@@ -15,6 +15,6 @@ More information at [rupx.io](http://www.rupx.io) Visit our ANN thread at [Bitco
 <tr><td>Algo</td><td>Quark</td></tr>
 <tr><td>Block Time</td><td>60 Seconds</td></tr>
 <tr><td>Difficulty Retargeting</td><td>Every Block</td></tr>
-<tr><td>Max Coin Supply (PoS Phase)</td><td>75,000,000</td></tr>
-<tr><td>Premine</td><td>36,000,000 RUPX*</td></tr>
+<tr><td>Max Coin Supply (PoS Phase)</td><td>75,000,000 RUPX</td></tr>
+<tr><td>Premine</td><td>36,000,000 RUPX</td></tr>
 </table>
