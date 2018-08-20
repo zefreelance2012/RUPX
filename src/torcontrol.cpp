@@ -1,6 +1,8 @@
 // Copyright (c) 2015-2016 The Bitcoin Core developers
 // Copyright (c) 2017 The Zcash developers
-// Copyright (c) 2017-2018 The Rupaya developers
+// Copyright (c) 2017-2018 The PIVX developers 
+ 
+// Copyright (c) 2018 The RUPAYA developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
